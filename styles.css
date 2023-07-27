@@ -1,1 +1,122 @@
-/* Write your CSS here! */
+/* Elements */
+
+body {
+    background-image: url(Images/headerBackground\ copy.jpeg);
+    background-repeat: no-repeat;
+    font-size: 11pt;
+    width: 100vw;
+    height: 100vw;
+    margin: 8px;
+    padding: 0px;
+    display: block;
+    overflow-x: hidden;
+}
+
+header {
+    height: 400px;
+    padding: 20px;
+    margin: 0px;
+}
+
+main {
+    width: 100vw;
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+h1 {
+    text-align: center;
+    font-size: 7em;
+    color: white;
+    font-family: "acier-bat-gris", sans-serif;
+}
+
+h2 {
+    font-size: 3.3em;
+    font-family: "acier-bat-gris", sans-serif;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 1.8em;
+    font-family: "arboria", sans-serif;
+    font-weight: 500;
+    padding-right: -40px;
+}
+
+footer {
+    height: 30px;
+    color: white;
+    font-family: "arboria", sans-serif;
+    font-weight: 400;
+    background-color: #95DBB6;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Ids */
+
+#logo{
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+#myself{
+    width: 450px;
+}
+
+#myName {
+    width: 350px;
+    padding-left: 10px;
+}
+
+#galaxy{
+    width: 400px;
+}
+
+#cudi{
+    width: 450px;
+}
+
+#mainHeading{
+    color:red;
+}
+
+
+#lastP{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Classes */
+
+.container {
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+.left-half {
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .right-half {
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .funParagraph {
+    color:green;
+  }
